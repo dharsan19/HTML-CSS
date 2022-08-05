@@ -1,16 +1,60 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-        <div>
-            <img src="google.png" class="logo" />
-            <input type="text" class="search">
-            <div class="wrapper">
-                <button class="btn">Google search</button>
-                <button class="btn">I'm feeling lucky</button>
-            </div>
+  <head>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="./gclong-styles.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <ul class="header-menu">
+        <li class="menu-item"><a href="#">Gmail</a></li>
+        <li class="menu-item"><a href="#">Images</a></li>
+        <li class="menu-item"><a href="#"><svg class="gb_Ue dots" viewBox="0 0 24 24"><path d="M6 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm6 12c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm-6 0c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0-6c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm6 0c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm4-8c0 1.1.9 2 2 2s2-.9 2-2-.9-2-2-2-2 .9-2 2zm-4 2c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm6 6c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 6c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2z"/></svg></a></li>
+        <li class="menu-item"><a href="#"><button class="btn btn-signin">Sign in</button></a></li>
+      </ul>
+    </header>
+    <main class="main-content">
+      <img src="google.png" class="content-logo" />
+      <div class="main-search">
+        <img class="search-icon" src="../assets/google-input-search.svg" alt="google search" />
+        <input class="search-input" type="text" />
+        <img class="mic-icon" src="../assets/google-input-mic.svg" alt="google mic" />
+      </div>
+      <div class="search-wrapper">
+        <button class="btn btn-search">Google search</button>
+        <button class="btn btn-lucky">I'm feeling lucky</button>
+      </div>
+        <ul class="language-wrapper">
+          <li class="language"><a href="#">Google offered in: </a></li>
+          <li class="language"><a href="#">हिन्दी</a></li>
+          <li class="language"><a href="#">বাংলা</a></li>
+          <li class="language"><a href="#">తెలుగు</a></li>
+          <li class="language"><a href="#">मराठी</a></li>
+          <li class="language"><a href="#">தமிழ்</a></li>
+          <li class="language"><a href="#">ગુજરાતી</a></li>
+          <li class="language"><a href="#">ಕನ್ನಡ</a></li>
+          <li class="language"><a href="#">മലയാളം</a></li>
+          <li class="language"><a href="#">ਪੰਜਾਬੀ</a></li>
+        </ul>
+    </main>
+    <footer class="footer">
+      <div class="footer-upper">
+        <p>India</p>
+      </div>
+      <ul class="footer-items">
+        <div class="f-items-left">
+          <li class="f-item"><a href="#">About</a></li>
+          <li class="f-item"><a href="#">Advertising</a></li>
+          <li class="f-item"><a href="#">Business</a></li>
+          <li class="f-item"><a href="#">How Search works</a></li>
         </div>
-    </body>
+        <div class="f-items-right">
+          <li class="f-item"><a href="#">Privacy</a></li>
+          <li class="f-item"><a href="#">Terms</a></li>
+          <li class="f-item"><a href="#">Settings</a></li>
+        </div>
+      </ul>
+    </footer>
+  </body>
 </html>
