@@ -22,8 +22,9 @@ ul {
 .btn {
     padding: 9px 23px;
     border: none;
-    border-radius: 3px;
+    border-radius: 4px;
     font-size: 1rem;
+    cursor: pointer;
 }
 
 .btn-signin {
@@ -57,4 +58,91 @@ ul {
 
 .menu-item:nth-child(3) {
     margin-left: 1.1rem;
+}
+/* Main */
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-logo {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 280px;
+}
+
+.main-search {
+    display: flex;
+    justify-content: space-around;
+    max-width: 600px;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 25px;
+    margin-bottom: 1rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.main-search:hover {
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border: 1px solid rgba(223, 225, 229, 0);
+}
+
+.search-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.search-input {
+    border: none;
+    width: 550px;
+    padding: 5px;
+    margin: 0 5px;
+}
+
+.search-input:focus {
+    outline: none;
+}
+
+.mic-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.btn-search {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    color: #3c4043;
+    font-size: 14px;
+    margin: 11px 4px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn-search:hover {
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+.btn-lucky {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    color: #3c4043;
+    font-size: 14px;
+    margin: 11px 4px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn-lucky:hover {
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
 }
