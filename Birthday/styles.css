@@ -50,6 +50,7 @@ h1, h2, h3, h4, p {
     border-radius: 10px; 
     background-image: url("images/gift-cover.jpg");
     background-size: cover;
+    transition: all 0.5s ease;
 }
 
 #holi:hover {
