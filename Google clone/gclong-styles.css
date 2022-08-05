@@ -64,9 +64,9 @@ ul {
 .main-content {
     display: flex;
     flex-direction: column;
-    height: 50vh;
     align-items: center;
     justify-content: center;
+    height: 50vh;
 }
 
 .content-logo {
@@ -79,9 +79,11 @@ ul {
     display: flex;
     justify-content: space-around;
     max-width: 600px;
+    min-width: 550px;
+        width: 100%;
     align-items: center;
     border: 1px solid #ccc;
-    padding: 10px;
+    padding: 5px 10px 3px 14px;
     border-radius: 25px;
     margin-bottom: 1rem;
     transition: all 0.2s ease-in-out;
@@ -99,9 +101,11 @@ ul {
 
 .search-input {
     border: none;
-    width: 550px;
+    width: 90%;
     padding: 5px;
     margin: 0 5px;
+    font-size: 1rem;
+        padding: 10px;
 }
 
 .search-input:focus {
@@ -111,6 +115,7 @@ ul {
 .mic-icon {
     width: 24px;
     height: 24px;
+    margin-right: 5px;
 }
 
 .btn-search {
@@ -145,4 +150,65 @@ ul {
     background-color: #f8f9fa;
     border: 1px solid #dadce0;
     color: #202124;
+}
+.language-wrapper {
+    display: flex;
+    font-size: 13px;
+    margin-top: 1rem;
+}
+
+.language {
+    margin-right: 1rem;
+    color: #1a73e8;
+}
+
+.language:nth-child(1) a {
+    color: #4d5156;
+    text-decoration: none;
+}
+
+.language a {
+    color: #1a0dab;
+}
+
+/* Footer */
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #f2f2f2;
+    color: #70757a;
+    font-size: 15px;
+}
+
+.footer-upper {
+    padding: 15px;
+    padding-left: 30px;
+    border-bottom: 1px solid #dadce0;
+}
+
+.footer-items {
+    padding: 15px;
+    padding-left: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.f-items-left {
+    display: flex;
+    justify-content: space-between;
+}
+
+.f-items-right {
+    display: flex;
+    justify-content: space-between;
+}
+
+.f-item {
+    margin-right: 1.1rem;
+}
+
+.f-item a {
+    color: #70757a;
 }
